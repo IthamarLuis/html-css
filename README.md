@@ -1,4 +1,3 @@
-ithamarluis.github.io
 # Repositório público do Ithamar
 
  curso de html5 e css3
