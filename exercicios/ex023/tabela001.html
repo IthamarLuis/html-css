@@ -11,22 +11,18 @@
         }
         table{
             width: 300px;
+            height: 300px;
             border-collapse: collapse;
            /* border: 5px solid red;*/
-        }
-        tr{
-            background-color: aqua;
         }
         td{
             border: 2px solid black;
             padding: 2px;
-            text-align: center;
+            text-align: center; /* alinhamento horizontal*/
+            vertical-align: top; /*alinhamento vertical*/
         }
-        tr.linha{
-            background-color: bisque;
-        }
-        td.dado{
-            background-color: brown;
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -40,20 +36,20 @@
                 TABLE DATA = dado de tabela
     -->
     <table>
-        <tr class="linha"> <!--primeira linha-->
+        <tr> <!--primeira linha-->
             <td>A1</td> 
             <td>B1</td> <!--dados-->
             <td>C1</td>
         </tr>
         <tr> <!--segunda linha-->
-            <td class="dado">A2</td> 
+            <td>A2</td> 
             <td>B2</td> <!--dados-->
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr> <!--terceira linha-->
             <td>A3</td> 
             <td>B3</td> <!--dados-->
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--quarta linha-->
             <td>A4</td> 
